@@ -50,7 +50,7 @@ const AgregarPregunta = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container-center">
             <button className="button button-back" onClick={handleBack}>&#60;</button>
             <fieldset>
                 <legend className="form-title"><strong>Insertar Pregunta</strong></legend>

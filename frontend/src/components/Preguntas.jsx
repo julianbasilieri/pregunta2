@@ -86,7 +86,7 @@ const Preguntas = () => {
         event.stopPropagation();
         const pregunta = preguntas.find((pregunta) => pregunta.IdPregunta === id);
         setPreguntaSeleccionada(pregunta);
-        Delete(id)
+        // Delete(id)
         const nuevasPreguntas = preguntas.filter((pregunta) => pregunta.IdPregunta !== id);
         setPreguntas(nuevasPreguntas);
     };

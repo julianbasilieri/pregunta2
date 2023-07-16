@@ -39,7 +39,7 @@ const ModificarPregunta = ({ pregunta }) => {
     };
 
     return (
-        <div className="container">
+        <div className="container-center">
             <button className="button button-back" onClick={handleBack}>&#60;</button>
             <fieldset>
                 <legend className="form-title"><strong>Modificar Pregunta</strong></legend>
